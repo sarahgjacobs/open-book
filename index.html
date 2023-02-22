@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
     <title>Open Book</title>
 </head>
+
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">Open Book</h1>
-        <p class="lead">Curious to know what's hidden inside your next read? Search our database below to learn what themes and content your book holds...</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Open Book</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Genres
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Young Adult</a>
+                        <a class="dropdown-item" href="#">Adult</a>
+                        <a class="dropdown-item" href="#">Other</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    </nav>
+    <div class="jumbotron jumbotron-fluid p-4">
+        <h1 class="display-4 d-sm-flex">Open Book</h1>
+        <!-- <img src="./assets/open-book" class="w-25 img-fluid align-items-center d-flex float-right d-sm-flex"> -->
+        <p class="lead">Curious to know what's hidden inside your next read? Search our database below to learn what
+            themes and content your book holds...</p>
         <hr class="my-4">
         <p>Sign in or Create and Account to browse or upload your review today!</p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Login / Sign up</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Login / Sign up</a>
         </p>
-      </div>
+    </div>
     <div class="container">
 
     </div>
-    
+
 </body>
+
 </html>
